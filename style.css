@@ -14,11 +14,14 @@ body {
 #header-logo{
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
+    margin-right: 460px;
 }
 
 .header-link{
     font-size: 18px;
     color: #E5E7EB;
+    margin-left: 90px;
 }
 
 .navbar{
