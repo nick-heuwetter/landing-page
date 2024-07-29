@@ -24,6 +24,7 @@ body {
 .navbar{
     display: flex;
     flex-direction: row;
+    padding-top: 10px;
 }
 
 ul{
@@ -45,3 +46,45 @@ h1{
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
+    
+}
+
+img {
+    margin: 50px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 60px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
